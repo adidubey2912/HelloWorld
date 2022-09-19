@@ -51,7 +51,7 @@ namespace HelloWorld
                     Factors.FactorsUsingRecursiveMethod(facta);
                     break;
                 default:
-                    Console.WriteLine("Please enter the options");
+                    Console.WriteLine("Please select option in showing options");
                     break;
             }
             Console.ReadLine();
