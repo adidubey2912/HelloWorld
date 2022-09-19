@@ -20,11 +20,11 @@ namespace HelloWorld.Class_Programs
             }
             if (factor > 2)
             {
-                Console.WriteLine("{0} is prime.",numb);
+                Console.WriteLine("{0} is not prime.",numb);
             }
             else
             {
-                Console.WriteLine("{0} is not prime.",numb);
+                Console.WriteLine("{0} is prime.",numb);
             }
         }
     }
