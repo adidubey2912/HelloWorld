@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class Programs\ArrayConcept.cs" />
+    <Compile Include="Class Programs\CheckGreater.cs" />
     <Compile Include="Class Programs\EvenOrOdd.cs" />
     <Compile Include="Class Programs\Factors.cs" />
     <Compile Include="Class Programs\LargestAmongThreeNumbers.cs" />
+    <Compile Include="Class Programs\Palindrome.cs" />
     <Compile Include="Class Programs\PrimeNumbers.cs" />
     <Compile Include="Class Programs\VowelOrConsonant.cs" />
     <Compile Include="Program.cs" />

@@ -13,7 +13,7 @@ namespace HelloWorld
         public static void Main(string[] args)
         {
             Console.WriteLine("Please choose any one program from below options");
-            Console.WriteLine("1. Largest Among Three Numbers\n2. Check Vowel Or Consonant\n3. Check Even Or Odd\n4. Array Concept\n5. Find Factor By Iterative Method\n6. Check Prime Numbers\n7. Find Factor By Recursive Method");
+            Console.WriteLine("1. Largest Among Three Numbers\n2. Check Vowel Or Consonant\n3. Check Even Or Odd\n4. Array Concept\n5. Find Factor By Iterative Method\n6. Check Prime Numbers\n7. Find Factor By Recursive Method\n8. Find Greater Number\n9. Check Palindrome Number");
             int choose = Convert.ToInt32(Console.ReadLine());
             switch (choose)
             {
@@ -49,6 +49,12 @@ namespace HelloWorld
                     Console.WriteLine("Please enter number");
                     int facta = Convert.ToInt32(Console.ReadLine());
                     Factors.FactorsUsingRecursiveMethod(facta);
+                    break;
+                case 8:
+                    CheckGreater.CheckTheGreater();
+                    break;
+                case 9:
+                    Palindrome.CheckPalindrome();
                     break;
                 default:
                     Console.WriteLine("Please select option in showing options");
